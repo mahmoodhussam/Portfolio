@@ -14,7 +14,7 @@ if(mainColor !== null){
 let setting_icon = document.querySelector('.setting-icon');
 let setting_box = document.querySelector('.setting-box');
 setting_icon.addEventListener('click',()=>{
-    setting_box.classList.toggle("open")
+    setting_box.classList.toggle("open");
 })
 let landingPage = document.querySelector('.landing-page');  
 

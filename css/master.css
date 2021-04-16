@@ -123,13 +123,13 @@ body {
     font-size: 20px;
 }
 .header-menu.open {
-    position: absolute;
-    display: block;
+    position: absolute ;
+    display: block  !important;
     background-color: #FFF;
     width: 180px;
     top: 37px;
-    left: 71%;
-    padding: 20px;
+    left: 65%;
+    padding: 15px;
     text-align: center;
     border-radius: 20px;
     z-index: 1000;
@@ -204,10 +204,10 @@ body {
 }
 @media (max-width: 991px) {
     .header-menu {
-        display:none;
+        display:none  !important;
     }
     .toggle-menu {
-        display: block;
+        display: block !important; 
     }
 }
 /* Start Landing Page  */
@@ -702,6 +702,7 @@ body {
 /* Start Footer  */
 .footer {
     background-color: #333;
+    width: 100%;
     text-align: center;
     color: #EEE;
     padding: 10px 0px;
