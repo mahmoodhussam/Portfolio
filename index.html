@@ -1,294 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Design</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahmoud Hussam Portfolio</title>
     <!-- Font Family  -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
     <!-- Normalize CSS Style -->
-    <link rel="stylesheet" href="./css//normalize.css">
+    <link rel="stylesheet" href="./css//normalize.css" />
     <!-- Master CSS Style -->
-    <link rel="stylesheet" href="./css/master.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/master.css" />
+  </head>
+  <body>
     <!-- Start Setting Box -->
-        <div class="setting-box">
-            <i class="fas fa-cog setting-icon"></i>
-            <div class="settting-container">
-                <div class="option-settting">
-                    <div class="option-box">
-                        <h4>Colors</h4>
-                        <div class="colors-list">
-                            <li class="active" data-color="#ffb506"></li>
-                            <li data-color="#861212de"></li>
-                            <li data-color="#00eecede"></li>
-                            <li data-color="#220affde"></li>
-                        </div>
-                    </div>
-                </div>
-                <div class="option-box">
-                    <h4>Random Background</h4>
-                    <div class="random-background-container">
-                        <span class="yes active" data-bg="yes">Yes</span>
-                        <span class="no" data-bg="no">No</span>
-                    </div>
-                </div>
-                <div class="option-box">
-                    <h4>Show Bullets</h4>
-                    <div class="show-bullets">
-                        <span class="yes active" data-display="yes">Yes</span>
-                        <span class="no" data-display="no">No</span>
-                    </div>
-                </div>
-                <div class="option-box">
-                    <h4>Show Links</h4>
-                    <div class="show-links">
-                        <span class="yes active" data-links="yes">Yes</span>
-                        <span class="no" data-links="no">No</span>
-                    </div>
-                </div>
-                <button class="restart">Restart</button>    
+    <div class="setting-box">
+      <i class="fas fa-cog setting-icon"></i>
+      <div class="settting-container">
+        <div class="option-settting">
+          <div class="option-box">
+            <h4>Colors</h4>
+            <div class="colors-list">
+              <li class="active" data-color="#ffb506"></li>
+              <li data-color="#861212de"></li>
+              <li data-color="#00eecede"></li>
+              <li data-color="#220affde"></li>
             </div>
+          </div>
         </div>
+        <div class="option-box">
+          <h4>Random Background</h4>
+          <div class="random-background-container">
+            <span class="yes" data-bg="yes">Yes</span>
+            <span class="no active" data-bg="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="show-bullets">
+            <span class="yes active" data-display="yes">Yes</span>
+            <span class="no" data-display="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Links</h4>
+          <div class="show-links">
+            <span class="yes active" data-links="yes">Yes</span>
+            <span class="no" data-links="no">No</span>
+          </div>
+        </div>
+        <button class="restart">Restart</button>
+      </div>
+    </div>
     <!-- End Setting Box -->
     <!-- Start Landing Page  -->
     <div class="landing-page">
-        <div class="overlay"></div>
-        <div class="header-area">
-            <div class="logo">Special Design</div>
-            <ul class="header-menu">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#" data-section=".about-us">About</a></li>
-                <li><a href="#" data-section=".gallery">Gallery</a></li>
-                <li><a href="#" data-section=".timeline">Achievements</a></li>
-                <li><a href="#" data-section=".features">Features</a></li>
-            </ul>
-            <div class="toggle-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <div class="overlay"></div>
+      <div class="header-area">
+        <div class="logo">Mahmoud Hussam</div>
+        <ul class="header-menu">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#" data-section=".about-us">About</a></li>
+          <li><a href="#" data-section=".gallery">Projects</a></li>
+          <li><a href="#" data-section=".timeline">Achievements</a></li>
+        </ul>
+        <div class="toggle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div class="inttoduction-text">
-            <h1>We Are <span>Creative</span> People</h1>
-            <p> Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
+      </div>
+      <div class="inttoduction-text">
+        <h1>I'm <span class="auto-type"></span></h1>
+        <!-- <p>
+          A junior software developer, interested in web development with a
+          passionate interest in full-stack development. Experienced in
+          converting creative designs into real websites and mobile application
+          with ReactJs, VusJs and React Native. I have good knowledge in PHP,
+          node js,and basic knowledge in laravel.
+        </p> -->
+      </div>
     </div>
     <!-- End Landing Page -->
     <!-- Start About Us  -->
     <div class="about-us">
-        <div class="about-text">
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro tenetur aperiam, quaerat hic officiis quo voluptates ea amet tempora totam et cum. Laudantium saepe veniam nihil, sit doloremque rem tempore?</p>
-        </div>
-        <div class="about-image">
-            <img src="imgs/illstratio.jpg"/>
-        </div>
+      <div class="about-text">
+        <h1>About Me</h1>
+        <p>
+          A junior software developer, interested in web development with a
+          passionate interest in full-stack development. Experienced in
+          converting creative designs into real websites and mobile application
+          with ReactJs, VusJs and React Native. I have good knowledge in PHP,
+          node js,and basic knowledge in laravel.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="imgs/personal.JPG" />
+      </div>
     </div>
     <!-- End About Us -->
     <!-- Start Skills -->
     <div class="skills">
-        <div class="skills-box">
-            <div class="skill-name">HTML</div>
-            <div class="skill-progress">
-                <span data-progress="80%"></span>
-            </div>
-        </div>    
-        <div class="skills-box">
-                <div class="skill-name">CSS</div>
-                <div class="skill-progress">
-                    <span data-progress="75%"></span>
-                </div>
+      <div class="skills-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
         </div>
-        <div class="skills-box">
-            <div class="skill-name">JavaScript</div>
-            <div class="skill-progress">
-                <span data-progress="80%"></span>
-            </div>
-    </div>
-    <div class="skills-box">
+      </div>
+      <div class="skills-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-progress">
+          <span data-progress="85%"></span>
+        </div>
+      </div>
+      <div class="skills-box">
         <div class="skill-name">ReactJS</div>
         <div class="skill-progress">
-            <span data-progress="75%"></span>
+          <span data-progress="80%"></span>
         </div>
-    </div>
-    <div class="skills-box">
+      </div>
+      <div class="skills-box">
+        <div class="skill-name">React Native</div>
+        <div class="skill-progress">
+          <span data-progress="75%"></span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <div class="skill-name">VueJs</div>
+        <div class="skill-progress">
+          <span data-progress="75%"></span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <div class="skill-name">PHP</div>
+        <div class="skill-progress">
+          <span data-progress="50%"></span>
+        </div>
+      </div>
+      <div class="skills-box">
         <div class="skill-name">NodeJS</div>
         <div class="skill-progress">
-            <span data-progress="65%"></span>
+          <span data-progress="50%"></span>
         </div>
-    </div>
-    <div class="skills-box">
-        <div class="skill-name">Mongodb</div>
+      </div>
+      <div class="skills-box">
+        <div class="skill-name">Problem Solving</div>
         <div class="skill-progress">
-            <span data-progress="60%"></span>
+          <span data-progress="73%"></span>
         </div>
-    </div>
+      </div>
     </div>
     <!-- End Skills  -->
     <!-- Start Our Gallery  -->
     <div class="gallery">
-        <h1>Our Gallery</h1>
-        <div class="image-box">
-            <img src="./imgs/1.jpg" alt="First Image">
-            <img src="./imgs/2.jpeg" alt="Second Image">
-            <img src="./imgs/3.jpg" alt="Third Image">
-            <img src="./imgs/4.jpg" alt="Fourth Image">
-            <img src="./imgs/5.jpg" alt="Fifth Image">
-            <img src="./imgs/6.jpg" alt="">
-            <img src="./imgs/7.jpg" alt="">
-            <img src="./imgs/8.jpg" alt="">
-            <img src="./imgs/9.gif" alt="">
-            <img src="./imgs/10.png" alt="">
-        </div>
+      <h1>My Projects</h1>
+      <ul class="tabs-container">
+        <li class="project-tab active" data-value="all">All</li>
+        <li class="project-tab" data-value="reactjs">ReactJS</li>
+        <li class="project-tab" data-value="react-native">React Naitve</li>
+        <li class="project-tab" data-value="vuejs">VueJS</li>
+        <li class="project-tab" data-value="php">PHP</li>
+        <li class="project-tab" data-value="javascript">JavaScript</li>
+      </ul>
+      <div class="image-box">
+        <img
+          src="./imgs/TRAVL-react.JPG"
+          alt="TRAVL PROJECT (REACTJS)"
+          data-info="Build with React Hook and React Router. "
+          data-link="https://github.com/mahmoodhussam/TRVL"
+          class="project"
+          data-project="reactjs"
+        />
+        <img
+          src="./imgs/food-react.JPG"
+          alt="FOOD PROJECT (REACTJS)"
+          data-info="It's a websit use to get recipies for food build with React Hook and Axios. "
+          data-link="https://github.com/mahmoodhussam/React-food"
+          class="project"
+          data-project="reactjs"
+        />
+        <img
+          src="./imgs/cat.jpg"
+          alt="CATS PROJECT (REACT NATIVE)"
+          data-info="It's an application use for mange a cats store. The App build with React Native. "
+          data-link="https://github.com/mahmoodhussam/cats"
+          class="project"
+          data-project="react-native"
+        />
+        <img
+          src="./imgs/weather-vue.JPG"
+          alt="WHEATER APP (VUEJS)"
+          data-info="It's a webist for find the temp for any city in the world, build with vuejs and axios. "
+          data-link="https://github.com/mahmoodhussam/vue-weather-app"
+          class="project"
+          data-project="vuejs"
+        />
+        <img
+          src="./imgs/quiz-app-vue.jpg"
+          alt="QUIZ APP (VUEJS)"
+          data-info="It's a webist for quizes, build with vuejs. "
+          data-link="https://github.com/mahmoodhussam/vuejs-quiz"
+          class="project"
+          data-project="vuejs"
+        />
+        <img
+          src="./imgs/pizza-php.JPG"
+          alt="PIZZA APP (PHP)"
+          data-info="It's a websit for manegment pizza store. "
+          data-link="https://github.com/mahmoodhussam/mahmoud-pizza"
+          class="project"
+          data-project="php"
+        />
+        <img
+          src="./imgs/university-php.JPG"
+          alt="UNIVERSITY (PHP)"
+          data-info="It's a websit for manegment university open section. "
+          data-link="https://github.com/mahmoodhussam/university-php"
+          class="project"
+          data-project="php"
+        />
+        <img
+          src="./imgs/mahcine-learning-javascript.JPG"
+          alt="MAHCINE LEARNING ALGORITHM (JAVASCRIPT)"
+          data-info="Machine learning tutorial website, it show step by step examples for three machine learning algorithms. "
+          data-link="https://www.linkedin.com/posts/mahmoud-abbas-33847b213_machinelearning-html5-css3-activity-6913554156695756800-qrcr?utm_source=linkedin_share&utm_medium=member_desktop_web"
+          class="project"
+          data-project="javascript"
+        />
+        <img
+          src="./imgs/weather-javascipt.JPG"
+          alt="WHEATHER APP (JAVASCRIPT)"
+          data-info="It's a webist for find the temp for any city in the world, build with vuejs and axios. "
+          data-link="https://github.com/mahmoodhussam/weather-photos"
+          class="project"
+          data-project="javascript"
+        />
+      </div>
     </div>
     <!-- End Our Gallery  -->
     <!-- Start Timeline -->
     <div class="timeline">
-        <div class="timeline-content">
-            <div class="year">2020</div>
-            <div class="left">
-                <div class="content">
-                    <h3>Training in the big company</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloribus velit eveniet commodi, ducimus dolorem nam perferendis, mollitia voluptatibus minima magnam incidunt. Dolor earum, corrupti quod quibusdam aliquam omnis quo.</p>
-                </div>
-            </div>
-            <div class="clearFix"></div>
-            <div class="right">
-                <div class="content">
-                    <h3>Training in the big company</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloribus velit eveniet commodi, ducimus dolorem nam perferendis, mollitia voluptatibus minima magnam incidunt. Dolor earum, corrupti quod quibusdam aliquam omnis quo.</p>
-                </div>
-            </div>
-            <div class="clearFix"></div>
-            <div class="year">2018</div>
-            <div class="left">
-                <div class="content">
-                    <h3>Training in the big company</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloribus velit eveniet commodi, ducimus dolorem nam perferendis, mollitia voluptatibus minima magnam incidunt. Dolor earum, corrupti quod quibusdam aliquam omnis quo.</p>
-                </div>
-            </div>
-            <div class="clearFix"></div>
-            <div class="right">
-                <div class="content">
-                    <h3>Training in the big company</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloribus velit eveniet commodi, ducimus dolorem nam perferendis, mollitia voluptatibus minima magnam incidunt. Dolor earum, corrupti quod quibusdam aliquam omnis quo.</p>
-                </div>
-            </div>
+      <div class="timeline-content">
+        <div class="year">2022</div>
+        <div class="left">
+          <div class="content">
+            <h3>Software Developer at Signals Control</h3>
+            <p>
+              Signals Control is an innovative solutions company based in Jordan
+              and KSA offers an intelligent automation, physical security and
+              control solutions, with focus on optimizing operational efficiency
+              at airports and smart city infrastructure.
+            </p>
+          </div>
         </div>
+        <div class="clearFix"></div>
+        <div class="year">2021</div>
+        <div class="right">
+          <div class="content">
+            <h3>Front End Icon Software</h3>
+            <p>
+              Develop web applications and dashboards for many projects like
+              Al-Maref University and Astra Feed Company with React JS and
+              Redux.
+              <br />
+              Develop android and ios apps using react native.
+            </p>
+          </div>
+        </div>
+        <div class="clearFix"></div>
+        <div class="left">
+          <div class="content">
+            <h3>Intership at Icon Software</h3>
+            <p>
+              (HTTP,HTML5,CSS3,JS,Es6, BootStrap,Tailwind,git, github) FrontEnd
+              Development (React Class Component, React Functional Component,
+              React Hook, Redux, Connect with Backend)
+            </p>
+          </div>
+        </div>
+        <div class="clearFix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>Graduation Al-Balqa' Applied University BAU</h3>
+            <p>
+              Al-Balqa' Applied University BAUAl-Balqa' Applied University BAU
+              <br />
+              Bachelor's degree, Computer Engineering  (2017 - 2021)
+              <br />
+              Grade: 3.61
+              <br />
+              Third in my class. <strong class="emoji">&#128187</strong>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="clearFix"></div>
     <!-- End Timeline -->
     <!-- Start Features -->
-    <div class="features">
-        <h2>Our Features</h2>
-        <div class="feat-content">
-            <div class="feat-box">
-                <img src="imgs/1.jpg" alt="">
-                <h4>Web Development</h4>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Magni, maxime facere. Cupiditate architecto totam obcaecati.
-                     Quos fugiat neque accusantium facilis! Dolore exercitationem
-                     libero totam itaque repudiandae iusto dicta corrupti praesentium.
-                </p>
-            </div>
-            <div class="feat-box">
-                <img src="imgs/2.jpeg" alt="">
-                <h4>Web Development</h4>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Magni, maxime facere. Cupiditate architecto totam obcaecati.
-                     Quos fugiat neque accusantium facilis! Dolore exercitationem
-                     libero totam itaque repudiandae iusto dicta corrupti praesentium.
-                </p>
-            </div>
-            <div class="feat-box">
-                <img src="imgs/3.jpg" alt="">
-                <h4>Web Development</h4>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Magni, maxime facere. Cupiditate architecto totam obcaecati.
-                     Quos fugiat neque accusantium facilis! Dolore exercitationem
-                     libero totam itaque repudiandae iusto dicta corrupti praesentium.
-                </p>
-            </div>
-            <div class="feat-box">
-                <img src="imgs/4.jpg" alt="">
-                <h4>Web Development</h4>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Magni, maxime facere. Cupiditate architecto totam obcaecati.
-                     Quos fugiat neque accusantium facilis! Dolore exercitationem
-                     libero totam itaque repudiandae iusto dicta corrupti praesentium.
-                </p>
-            </div>
-            <div class="feat-box">
-                <img src="imgs/5.jpg" alt="">
-                <h4>Web Development</h4>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Magni, maxime facere. Cupiditate architecto totam obcaecati.
-                     Quos fugiat neque accusantium facilis! Dolore exercitationem
-                     libero totam itaque repudiandae iusto dicta corrupti praesentium.
-                </p>
-            </div>
-            <div class="feat-box">
-                <img src="imgs/6.jpg" alt="">
-                <h4>Web Development</h4>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Magni, maxime facere. Cupiditate architecto totam obcaecati.
-                     Quos fugiat neque accusantium facilis! Dolore exercitationem
-                     libero totam itaque repudiandae iusto dicta corrupti praesentium.
-                </p>
-            </div>
-        </div>
-    </div>
     <!-- End Features -->
     <!-- Start Nav Bullet  -->
     <div class="nav-bullet">
-        <div class="bullet" data-section=".about-us">
-            <div class="tooltip">About Us</div>
-        </div>
-        <div class="bullet" data-section=".skills">
-            <div class="tooltip">Skills</div>
-        </div>
-        <div class="bullet" data-section=".gallery">
-            <div class="tooltip">Our Gallery</div>
-        </div>
-        <div class="bullet" data-section=".timeline">
-            <div class="tooltip">Our Features</div>
-        </div>
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Projects</div>
+      </div>
     </div>
     <!-- End Nav Bullet  -->
-    <!-- Start Contact Us  -->
+    <!-- Start Contact Me  -->
     <div class="contact">
-        <div class="overlay"></div>
-        <div class="contact-container">
-            <h2>Contact Us</h2>
-            <form action="">
-                <div class="left-contact">
-                    <input type="text" placeholder="Your Name" name="name">
-                    <input type="number" placeholder="Your Phone" name="phone">
-                    <input type="email" placeholder="Your Email" name="email">
-                    <input type="text" placeholder="Your Subject" name="subject">
-                </div>
-                <div class="right-contact">
-                    <textarea name="message" placeholder="Your Message"></textarea>
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-        </div>
+      <div class="overlay"></div>
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form action="">
+          <div class="left-contact">
+            <input type="text" placeholder="Your Name" name="name" />
+            <input type="number" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Your Subject" name="subject" />
+          </div>
+          <div class="right-contact">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
     </div>
-    <!-- End Contact Us  -->
+    <!-- End Contact Me  -->
     <!-- Start Footer  -->
     <div class="footer">
-        <h5>Mahmoud Abbas © 2021 | All Rights Reserved </h5>
+      <h5>Mahmoud Abbas © 2022 | All Rights Reserved</h5>
     </div>
     <!-- End Footer  -->
-    <script src="./js/master.js">  </script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./js/master.js"></script>
+  </body>
 </html>
